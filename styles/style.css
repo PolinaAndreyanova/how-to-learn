@@ -109,6 +109,57 @@
   font-weight: bold;
 }
 
+.feynman {
+  height: 100vh;
+  max-height: 890px;
+  background-color: #f2f2f2;
+  position: relative;
+  z-index: 0;
+}
+
+.feynman__title {
+  display: block;
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 648px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.feynman__subtitle {
+  display: block;
+  margin: 0 auto;
+  padding-top: 70px;
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  color: #2f80ed;
+  text-decoration: none;
+  line-height: 51px;
+  font-size: 36px;
+}
+
+.feynman__link:hover {
+  text-decoration: underline;
+}
+
+.feynman__main-illustration {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 867px;
+  height: 637px;
+  z-index: -1;
+}
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
