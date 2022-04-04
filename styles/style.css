@@ -148,7 +148,9 @@
   justify-content: space-between;
 }
 
-.table__cell {
+.table__cell {}
+
+.table__cell_theme_light {
   width: 250px;
   margin-top: 60px;
 }
@@ -217,11 +219,36 @@
   z-index: -1;
 }
 
+.kaufman {
+  background-color: #1f1f1f;
+  overflow: hidden;
+  position: relative;
+  z-index: -2;
+}
+
+.kaufman__content {
+  color: white;
+  padding: 90px 0;
+}
+
+.section-title_theme_dark {}
+
+.section-subtitle_theme_dark {}
+
+.table_theme_dark {}
+
 .table__cell_theme_dark {
   width: 200px;
-  color: white;
-  margin-right: 0;
   margin-top: 80px;
+}
+
+.triangle {
+  position: absolute;
+  top: 0;
+  right: -210px;
+  z-index: -1;
+  width: 877px;
+  height: 877px;
 }
 
 .footer {
