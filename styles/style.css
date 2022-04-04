@@ -3,6 +3,7 @@
   max-width: 1600px;
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  overflow: hidden;
 }
 
 .logo {
@@ -110,6 +111,59 @@
 
 .two-column__main-text_paragraph_span-accent {
   font-weight: bold;
+}
+
+.digits {}
+
+.digits__content {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+}
+
+.section-title {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  width: 60%;
+  text-align: center;
+  margin: 20px auto 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1100px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table__heading {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  margin: 20px 0 0;
+  line-height: 1.2;
+  font-size: 18px;
 }
 
 .feynman {
