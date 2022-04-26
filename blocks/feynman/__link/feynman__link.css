@@ -6,8 +6,11 @@
   text-decoration: none;
   line-height: 51px;
   font-size: 36px;
+  opacity: 1;
+  transition: opacity 0.5s;
 }
 
 .feynman__link:hover {
   text-decoration: underline;
+  opacity: 0.5;
 }
