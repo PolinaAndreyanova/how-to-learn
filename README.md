@@ -1,6 +1,6 @@
 # Проект: How-to-learn
 
-## Посмотреть: https://polinaandreyanova.github.io/how-to-learn/
+## Посмотреть: https://polinaandreyanova.github.io/how-to-learn/index.html
 
 ### Обзор
 
