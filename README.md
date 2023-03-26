@@ -1,10 +1,15 @@
 # Проект: How-to-learn
 
-## Посмотреть: https://polinaandreyanova.github.io/how-to-learn/index.html
+**Описание**
+Одностраничный сайт о различных методах обучения.
 
-### Обзор
+**Функциональность**
+* Адаптивная верстка
+* Анимированные элементы
+* Встроенные видео с YouTube
 
-**Используемые технологии**
-
+**Стек технологий**
 * HTML5
 * CSS3
+
+### Посмотреть: https://polinaandreyanova.github.io/how-to-learn/index.html
